@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Health Check Test Suite For DEV For Server One">
+	<listeners>
+		<listener class-name="com.essar.utils.TestNGListeners"></listener>
+	</listeners>
+	<test name=" Save Electronic Signature ">
+		<classes>
+			<class name="com.essar.testcases.SaveESignatureServiceTest"></class>
+		</classes>
+	</test>
+	<test name=" Get Electronic Signature ById">
+		<classes>
+			<class name="com.essar.testcases.GetESignatureByIdServiceTests"></class>
+		</classes>
+	</test>
+	<test name=" Get Electronic Signature ByTransType and ById ">
+		<classes>
+			<class name="com.essar.testcases.GetESignaturesByTransTypeAndId"></class>
+		</classes>
+	</test>
+
+</suite>

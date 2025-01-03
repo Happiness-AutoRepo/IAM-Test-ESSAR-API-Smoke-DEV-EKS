@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Health Check TestSuite">
+	<listeners>
+		<listener class-name="com.essar.utils.TestNGListeners"></listener>
+	</listeners>
+	<test name=" Save Electronic Signature ">
+		<classes>
+			<class name="com.essar.testcases.SaveESignatureServiceTest"></class>
+		</classes>
+	</test>
+</suite>
