@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> -->
+<suite name="DEV EKS Health Check Test Suite" verbose="2">
+
+	<test name="Tests For DEV EKS Container and Load balancer" verbose="2">
+
+		<classes>
+
+			<class name="com.essar.testcases.SaveESignatureLoadBalancer"></class>
+	        <class name="com.essar.testcases.SaveESignatureContainer"></class>
+			
+			<class name="com.essar.testcases.GetESignaturesByTransTypeAndIdLoadBalancer"></class>
+			<class name="com.essar.testcases.GetESignaturesByTransTypeAndIdContainer"></class>
+			
+			<class name="com.essar.testcases.GetESignatureByIdLoadBalancer"></class>
+			<class name="com.essar.testcases.GetESignatureByIdContainer"></class>
+			
+			<class name="com.essar.testcases.SaveESignatureGetIntentLoadBalancer"></class>
+			<class name="com.essar.testcases.SaveESignatureGetIntentContainer"></class>
+			
+			<class name="com.essar.testcases.SaveESignatureSaveIntentLoadBalancer"></class>
+			<class name="com.essar.testcases.SaveESignatureSaveIntentContainer"></class>
+			
+			<class name="com.essar.testcases.IVES_GetESByIdTransTypeTests"></class>
+		    <class name="com.essar.testcases.IVES_SaveESignatureTests"></class>
+		  
+		    <class name="com.essar.testcases.IVESBOLA_SaveESignatureTests"></class>
+            <class name="com.essar.testcases.IVESBOLA_GetESByIdAppNameTests"></class>
+      
+		    <class name="com.essar.testcases.SaveESignatureTimeStampsTest"></class>
+			
+			<!-- Multiple Signature Tests -->
+			<class name="com.essar.multisig.testcases.MultiSignatureSaveTest"></class> 
+			<class name="com.essar.multisig.testcases.MultiSignatureRetrieveTest"></class> 
+			<class name="com.essar.multisig.testcases.MultiSignatureExtendTest"></class>
+			
+			<class name="com.essar.utils.GetScreenShotAndZip"></class>
+
+		</classes>
+
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

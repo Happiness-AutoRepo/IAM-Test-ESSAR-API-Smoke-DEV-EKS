@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> -->
+<suite name="MultiSignature Health Check Test Suite" verbose="2">
+
+	<test name="Tests For MultiSignature"
+		verbose="2">
+		<classes>
+			<!-- MultiSignature Save -->
+			 <class name="com.essar.multisig.testcases.MultiSignatureSaveTest"></class> 		 
+			 <!-- MultiSignature Retrieve -->
+			 <class name="com.essar.multisig.testcases.MultiSignatureRetrieveTest"></class> 
+			 <!-- MultiSignature Extend -->
+			 <class name="com.essar.multisig.testcases.MultiSignatureExtendTest"></class> 
+		</classes>
+
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
