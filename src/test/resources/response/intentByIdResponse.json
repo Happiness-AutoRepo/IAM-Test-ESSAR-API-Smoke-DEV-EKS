@@ -1,0 +1,8 @@
+{
+    "returnCode": "624",
+    "message": "Found an intent statement.",
+    "item": {
+        "intentId": 3288,
+        "intentStatement": "statement for DEV EKS env"
+    }
+}

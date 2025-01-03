@@ -1,0 +1,24 @@
+{
+    "returnCode": "604",
+    "message": "Found 1 eSignature record.",
+    "item": [
+        {
+            "appName": "TaxPro",
+            "authId": "17--...5536sdfsdf7887",
+            "authLevel": "LoA3",
+            "authType": "eAuth",
+            "createdById": "234545345---QWESDFsf334",
+            "hashValueTxt": "Testing authId Optional field ",
+            "notes": "Saved by automation framework in dev",
+            "timestampSigned": "2020-01-17T08:10:18.000Z",
+            "transId": "AutomationINDEV3ENVT",
+            "transType": "CAF_DLN",
+            "userId": "234545345---QWESDFsf334",
+            "userIdType": "TIN",
+            "userName": "werWSDerd ''''wertrt.-d",
+            "form": "formdev",
+            "intentId": 1
+        }
+    ]
+    
+}

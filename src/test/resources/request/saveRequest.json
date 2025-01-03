@@ -1,0 +1,18 @@
+{
+      "transType": "CAF_DLN",
+      "transId": "AutomationINDEV3ENV",
+      "userIdType": "TIN",
+      "userId": "234545345---QWESDFsf334",
+      "userName": "werWSDerd ''''wertrt.-d",
+      "authType": "SADI",
+      "authId": "17--...5536sdfsdf7887",
+      "authLevel": "LoA3",
+      "timestampSigned": "2020-01-17T08:10:18.000Z",
+      "sourceAddress":"138.223.154.105",
+      "sessionId":"=/=S()A.b(X(-yJrV/+do)f(Q_)uW-/6+o_v.k|3dOYc+Fh_=YOX-iDA++===",
+      "appName": "TaxPro",
+      "hashValueTxt":"Testing authId Optional field ",
+      "notes": "Saved by automation framework in dev",
+       "form": "formdev",
+       "intentId":"1"
+}
